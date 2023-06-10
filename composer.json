@@ -20,6 +20,11 @@
         "ext-simplexml": "*",
         "aws/aws-sdk-php": "^3.272",
         "box/spout": "^3.3",
+        "egulias/email-validator": "^3.2",
+        "erusev/parsedown": "^1.7",
+        "friendsofsymfony/elastica-bundle": "^6.3",
+        "friendsofsymfony/http-cache": "^2.15",
+        "friendsofsymfony/http-cache-bundle": "^2.16",
         "symfony/amazon-mailer": "5.4.",
         "symfony/asset": "5.4.",
         "symfony/console": "5.4.*",
@@ -97,7 +102,8 @@
     "extra": {
         "symfony": {
             "allow-contrib": false,
-            "require": "5.4.*"
+            "require": "5.4.*",
+            "docker": false
         }
     }
 }
