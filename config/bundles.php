@@ -20,4 +20,6 @@ return [
     Liip\FunctionalTestBundle\LiipFunctionalTestBundle::class => ['all' => true],
     Liip\ImagineBundle\LiipImagineBundle::class => ['all' => true],
     Lunetics\LocaleBundle\LuneticsLocaleBundle::class => ['all' => true],
+    Minishlink\Bundle\WebPushBundle\MinishlinkWebPushBundle::class => ['all' => true],
+    Vich\UploaderBundle\VichUploaderBundle::class => ['all' => true],
 ];

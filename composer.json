@@ -43,6 +43,15 @@
         "liip/functional-test-bundle": "^4.10",
         "liip/imagine-bundle": "^2.11",
         "lunetics/locale-bundle": "3.0.0-rc1",
+        "michelf/php-markdown": "^1.9",
+        "minishlink/web-push-bundle": "^6.0",
+        "monolog/monolog": "^2.9",
+        "nyholm/psr7": "^1.8",
+        "pagerfanta/pagerfanta": "^3.8",
+        "php-http/message-factory": "^1.1",
+        "phpdocumentor/reflection-docblock": "^5.3",
+        "predis/predis": "^2.1",
+        "proj4php/proj4php": "^2.0",
         "symfony/amazon-mailer": "5.4.",
         "symfony/asset": "5.4.",
         "symfony/console": "5.4.*",
@@ -69,7 +78,8 @@
         "symfonycasts/reset-password-bundle": "^1.17",
         "symfonycasts/verify-email-bundle": "^1.13",
         "twig/extensions": "^1.5",
-        "twig/twig": "^2.0"
+        "twig/twig": "^2.0",
+        "vich/uploader-bundle": "^1.23"
     },
     "require-dev": {
         "roave/security-advisories": "dev-latest"

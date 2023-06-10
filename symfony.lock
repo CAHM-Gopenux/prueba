@@ -84,6 +84,9 @@
     "lunetics/locale-bundle": {
         "version": "3.0.0-rc1"
     },
+    "minishlink/web-push-bundle": {
+        "version": "v6.0.3"
+    },
     "php-http/discovery": {
         "version": "1.18",
         "recipe": {
@@ -293,6 +296,18 @@
         },
         "files": [
             "config/packages/twig_extensions.yaml"
+        ]
+    },
+    "vich/uploader-bundle": {
+        "version": "1.23",
+        "recipe": {
+            "repo": "github.com/symfony/recipes-contrib",
+            "branch": "main",
+            "version": "1.13",
+            "ref": "1b3064c2f6b255c2bc2f56461aaeb76b11e07e36"
+        },
+        "files": [
+            "config/packages/vich_uploader.yaml"
         ]
     }
 }
