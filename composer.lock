@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "cc675918c7987fd25a0bce455ef5fa76",
+    "content-hash": "958464ea22c0b600a6bd8964d86cb5b4",
     "packages": [
         {
             "name": "async-aws/core",
@@ -3447,6 +3447,82 @@
                 "source": "https://github.com/liip/LiipImagineBundle/tree/2.11.0"
             },
             "time": "2023-05-16T06:13:14+00:00"
+        },
+        {
+            "name": "lunetics/locale-bundle",
+            "version": "3.0.0-rc1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/lunetics-org/LocaleBundle.git",
+                "reference": "d0011d4258cfef89c061727989531d03250a2190"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/lunetics-org/LocaleBundle/zipball/d0011d4258cfef89c061727989531d03250a2190",
+                "reference": "d0011d4258cfef89c061727989531d03250a2190",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.4 || ^8.0",
+                "psr/log": "^1.0 || ^2.0 || ^3.0",
+                "symfony/framework-bundle": "^4.4 || ^5.4 ",
+                "symfony/intl": "^4.4 || ^5.4",
+                "symfony/templating": "^4.4 || ^5.4 ",
+                "symfony/validator": "^4.4 || ^5.4 ",
+                "symfony/yaml": "^4.4 || ^5.4 "
+            },
+            "require-dev": {
+                "dg/bypass-finals": "^1.4",
+                "ext-intl": "*",
+                "symfony/flex": "^1.0 || ^2.0",
+                "symfony/form": "^4.4 || ^5.4",
+                "symfony/phpunit-bridge": ">=5.4",
+                "twig/twig": "^1.41 || ^2.0 || ^3.0"
+            },
+            "suggest": {
+                "ext-intl": "Needed for displaying the country name in the locale language"
+            },
+            "type": "symfony-bundle",
+            "extra": {
+                "symfony": {
+                    "allow-contrib": true,
+                    "require": "^5.4"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Lunetics\\LocaleBundle\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Lunetics",
+                    "homepage": "http://www.lunetics.com"
+                },
+                {
+                    "name": "Christophe Willesmen",
+                    "homepage": "http://christophewillemsen.com"
+                }
+            ],
+            "description": "A Bundle for switching Languages",
+            "keywords": [
+                "browser",
+                "bundle",
+                "cookie",
+                "language",
+                "locale",
+                "multilanguage",
+                "router"
+            ],
+            "support": {
+                "issues": "https://github.com/lunetics-org/LocaleBundle/issues",
+                "source": "https://github.com/lunetics-org/LocaleBundle/tree/3.0.0-rc1"
+            },
+            "time": "2022-11-28T16:50:11+00:00"
         },
         {
             "name": "michelf/php-markdown",
@@ -10587,6 +10663,74 @@
             "time": "2023-03-14T06:11:53+00:00"
         },
         {
+            "name": "symfony/templating",
+            "version": "v5.4.21",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/templating.git",
+                "reference": "a47d5f1c8f7a636d27f8918d9cfd508242714e70"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/templating/zipball/a47d5f1c8f7a636d27f8918d9cfd508242714e70",
+                "reference": "a47d5f1c8f7a636d27f8918d9cfd508242714e70",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.2.5",
+                "symfony/polyfill-ctype": "~1.8"
+            },
+            "require-dev": {
+                "psr/log": "^1|^2|^3"
+            },
+            "suggest": {
+                "psr/log-implementation": "For using debug logging in loaders"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Symfony\\Component\\Templating\\": ""
+                },
+                "exclude-from-classmap": [
+                    "/Tests/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                }
+            ],
+            "description": "Provides all the tools needed to build any kind of template system",
+            "homepage": "https://symfony.com",
+            "support": {
+                "source": "https://github.com/symfony/templating/tree/v5.4.21"
+            },
+            "funding": [
+                {
+                    "url": "https://symfony.com/sponsor",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/fabpot",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                    "type": "tidelift"
+                }
+            ],
+            "time": "2023-02-14T08:03:56+00:00"
+        },
+        {
             "name": "symfony/translation",
             "version": "v5.4.0",
             "source": {
@@ -12381,6 +12525,7 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
+        "lunetics/locale-bundle": 5,
         "roave/security-advisories": 20
     },
     "prefer-stable": true,

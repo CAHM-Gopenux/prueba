@@ -42,6 +42,7 @@
         "knplabs/knp-snappy-bundle": "^1.9",
         "liip/functional-test-bundle": "^4.10",
         "liip/imagine-bundle": "^2.11",
+        "lunetics/locale-bundle": "3.0.0-rc1",
         "symfony/amazon-mailer": "5.4.",
         "symfony/asset": "5.4.",
         "symfony/console": "5.4.*",

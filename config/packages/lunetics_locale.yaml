@@ -1,0 +1,22 @@
+lunetics_locale:
+    allowed_locales:
+        # Activate only the full supported languages
+        - es
+        - en
+        - ca  # Catalan
+        - eu  # Euskera
+        - fr  # French
+        - es_MX  # Mexican Spanish
+        - en_AU # Australian english
+    guessing_order:
+        - router
+        - cookie
+        - query
+        - browser
+
+#    switcher:
+#        show_current_locale: true
+#        template: views/Lunetics/switcher_template.html.twig
+
+#services:
+#    Lunetics\LocaleBundle\LocaleInformation\AllowedLocalesProvider: '@lunetics_locale.allowed_locales_provider'

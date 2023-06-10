@@ -81,6 +81,9 @@
             "config/routes/liip_imagine.yaml"
         ]
     },
+    "lunetics/locale-bundle": {
+        "version": "3.0.0-rc1"
+    },
     "php-http/discovery": {
         "version": "1.18",
         "recipe": {
