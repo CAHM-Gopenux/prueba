@@ -63,6 +63,8 @@
         "phpdocumentor/reflection-docblock": "^5.3",
         "predis/predis": "^2.1",
         "proj4php/proj4php": "^2.0",
+        "ruflin/elastica": "^7.3",
+        "sebastian/exporter": "^4.0",
         "symfony/amazon-mailer": "5.4.",
         "symfony/asset": "5.4.",
         "symfony/console": "5.4.*",
