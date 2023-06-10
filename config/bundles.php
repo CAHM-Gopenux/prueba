@@ -22,4 +22,5 @@ return [
     Lunetics\LocaleBundle\LuneticsLocaleBundle::class => ['all' => true],
     Minishlink\Bundle\WebPushBundle\MinishlinkWebPushBundle::class => ['all' => true],
     Vich\UploaderBundle\VichUploaderBundle::class => ['all' => true],
+    Doctrine\Bundle\DoctrineBundle\DoctrineBundle::class => ['all' => true],
 ];

@@ -11,6 +11,20 @@
             "config/routes/annotations.yaml"
         ]
     },
+    "doctrine/doctrine-bundle": {
+        "version": "2.10",
+        "recipe": {
+            "repo": "github.com/symfony/recipes",
+            "branch": "main",
+            "version": "2.4",
+            "ref": "013b823e7fee65890b23e40f31e6667a1ac519ac"
+        },
+        "files": [
+            "config/packages/doctrine.yaml",
+            "src/Entity/.gitignore",
+            "src/Repository/.gitignore"
+        ]
+    },
     "friendsofsymfony/elastica-bundle": {
         "version": "6.3",
         "recipe": {
