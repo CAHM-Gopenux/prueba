@@ -24,6 +24,7 @@
         "box/spout": "^3.3",
         "composer/package-versions-deprecated": "1.11.99.5",
         "doctrine/annotations": "^1.2|^2.0",
+        "doctrine/data-fixtures": "^1.6",
         "doctrine/doctrine-bundle": "^2.10",
         "doctrine/doctrine-migrations-bundle": "^3.2",
         "doctrine/mongodb-odm": "^2.5",
