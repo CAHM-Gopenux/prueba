@@ -35,6 +35,7 @@
         "friendsofsymfony/http-cache": "^2.15",
         "friendsofsymfony/http-cache-bundle": "^2.16",
         "friendsofsymfony/oauth-server-bundle": "2.0.x-dev",
+        "friendsofsymfony/rest-bundle": "^3.5",
         "gedmo/doctrine-extensions": "^3.11",
         "guzzlehttp/psr7": "^2.5",
         "hslavich/oneloginsaml-bundle": "^2.10",
