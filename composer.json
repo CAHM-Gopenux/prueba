@@ -17,6 +17,7 @@
         "ext-libxml": "*",
         "ext-mongodb": "*",
         "ext-openssl": "*",
+        "ext-redis": "*",
         "ext-simplexml": "*",
         "aws/aws-sdk-php": "^3.272",
         "box/spout": "^3.3",
