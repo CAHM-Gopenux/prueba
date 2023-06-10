@@ -30,6 +30,7 @@
         "friendsofsymfony/elastica-bundle": "^6.3",
         "friendsofsymfony/http-cache": "^2.15",
         "friendsofsymfony/http-cache-bundle": "^2.16",
+        "friendsofsymfony/oauth-server-bundle": "2.0.x-dev",
         "gedmo/doctrine-extensions": "^3.11",
         "guzzlehttp/psr7": "^2.5",
         "hslavich/oneloginsaml-bundle": "^2.10",

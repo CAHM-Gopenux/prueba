@@ -53,6 +53,15 @@
     "friendsofsymfony/http-cache-bundle": {
         "version": "2.16.1"
     },
+    "friendsofsymfony/oauth-server-bundle": {
+        "version": "2.0",
+        "recipe": {
+            "repo": "github.com/symfony/recipes-contrib",
+            "branch": "main",
+            "version": "1.6",
+            "ref": "7300db1277b1ba025cdc2791171d9bf3e7adcc42"
+        }
+    },
     "hslavich/oneloginsaml-bundle": {
         "version": "v2.10.0"
     },
