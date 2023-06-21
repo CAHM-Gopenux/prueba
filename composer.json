@@ -66,6 +66,8 @@
         "ruflin/elastica": "^7.3",
         "sebastian/exporter": "^4.0",
         "sensio/framework-extra-bundle": "^6.2",
+        "snc/redis-bundle": "^4.6",
+        "stof/doctrine-extensions-bundle": "^1.7",
         "symfony/amazon-mailer": "5.4.",
         "symfony/asset": "5.4.",
         "symfony/console": "5.4.*",
