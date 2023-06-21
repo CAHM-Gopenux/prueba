@@ -86,6 +86,7 @@
         "symfony/process": "5.4.",
         "symfony/property-access": "5.4.",
         "symfony/property-info": "5.4.",
+        "symfony/proxy-manager-bridge": "5.4.*",
         "symfony/runtime": "5.4.*",
         "symfony/security-bundle": "^5.4",
         "symfony/serializer": "5.4.",
@@ -98,8 +99,10 @@
         "symfonycasts/reset-password-bundle": "^1.17",
         "symfonycasts/verify-email-bundle": "^1.13",
         "twig/extensions": "^1.5",
+        "twig/extra-bundle": "^3.6",
         "twig/twig": "^2.0",
-        "vich/uploader-bundle": "^1.23"
+        "vich/uploader-bundle": "^1.23",
+        "willdurand/js-translation-bundle": "^5.0"
     },
     "require-dev": {
         "brianium/paratest": "^6.4",

@@ -32,4 +32,6 @@ return [
     Snc\RedisBundle\SncRedisBundle::class => ['all' => true],
     Stof\DoctrineExtensionsBundle\StofDoctrineExtensionsBundle::class => ['all' => true],
     Fresh\VichUploaderSerializationBundle\FreshVichUploaderSerializationBundle::class => ['all' => true],
+    Twig\Extra\TwigExtraBundle\TwigExtraBundle::class => ['all' => true],
+    Bazinga\Bundle\JsTranslationBundle\BazingaJsTranslationBundle::class => ['all' => true],
 ];
